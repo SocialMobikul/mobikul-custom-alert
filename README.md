@@ -1,7 +1,7 @@
 # MobikulAlert
 
 A customizable alert modal component for React Native applications. Easily display alerts with titles, messages, and customizable buttons.
-
+[mobikul.com](https://pub.dev/publishers/mobikul.com/packages)
 
 <img src="./src/assets/image.png" alt="MobikulAlert Preview" width="300" /> <!-- Smaller image -->
 ## Installation
@@ -123,12 +123,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 
 Give us a like and share it with your friends
-
----
-
-[Mobikul](https://mobikul.com)
-[LinkedIn](https://www.linkedin.com/showcase/mobikul/)
-[Instagram](https://www.instagram.com/mobikul)
 
 
 
