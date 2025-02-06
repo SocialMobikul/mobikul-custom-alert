@@ -52,14 +52,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://git.webkul.com/mohammadarshad.mk321/mobikul-custom-alert.git"
+    "url": "git+https://github.com/SocialMobikul/mobikul-custom-alert.git"
   },
-  "author": "mobikul <mohammadarshad.mk321@webkul.in> (https://git.webkul.com/mohammadarshad.mk321/mobikul-custom-alert)",
+  "author": "mobikul",
   "license": "MIT",
   "bugs": {
-    "url": "https://git.webkul.com/mohammadarshad.mk321/mobikul-custom-alert/issues"
+    "url": "https://github.com/SocialMobikul/mobikul-custom-alert/issues"
   },
-  "homepage": "https://git.webkul.com/mohammadarshad.mk321/mobikul-custom-alert#readme",
+  "homepage": "https://github.com/SocialMobikul/mobikul-custom-alert",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
