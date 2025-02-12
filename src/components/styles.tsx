@@ -39,6 +39,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 30,
     borderRadius: 5,
+    width: "40%",
     alignItems: 'center',
   },
   textStyle: {
@@ -52,9 +53,11 @@ export const styles = StyleSheet.create({
     color: '#fff',
   },
   buttonContainer: {
-    flexWrap: 'wrap-reverse',
+    flex: 1,
+    width: "100%",
     flexDirection: 'row-reverse',
-    alignSelf: 'flex-end',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
     gap: 10,
     marginTop: 10,
   },

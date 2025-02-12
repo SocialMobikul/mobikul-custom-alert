@@ -9,6 +9,7 @@ import {
   type GestureResponderEvent,
   View,
   Image,
+  type ImageSourcePropType,
 } from 'react-native';
 import type { buttonProps } from './types';
 import { styles } from './styles';
@@ -46,6 +47,7 @@ const MobikulAlert = ({
   buttonTextStyle = styles.buttonTextStyle,
   buttonStyle = styles.okButton,
   iconVisible = true,
+  iconSource = require('../assets/attentionIcon.png')
 }: {
   visible: boolean;
   onPressleft?: () => void;
@@ -65,6 +67,7 @@ const MobikulAlert = ({
   buttonTextStyle?: StyleProp<TextStyle>;
   buttonStyle?: StyleProp<ViewStyle>;
   iconVisible?: boolean;
+  iconSource?: ImageSourcePropType;
 }) => {
   return (
     <Modal transparent visible={visible} animationType="fade">
@@ -72,14 +75,14 @@ const MobikulAlert = ({
         <Pressable style={[styles.popup]}>
           {iconVisible ? (
             <Image
-              source={require('../assets/attentionIcon.png')}
+              source={iconSource}
               style={styles.image}
             />
           ) : null}
           <Text style={[titleTextStyle]}>{title}</Text>
           <Text style={[messageTextStyle]}>{message}</Text>
           <View style={styles.buttonContainer}>
-            {buttons.map((item, index) => (
+            {buttons.slice(0, 2).map((item, index) => (
               <ButtonOutline
                 key={item.title + index}
                 onPress={item.callback}
