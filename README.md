@@ -77,7 +77,7 @@ export default App;
 | `buttonTextStyle` | `StyleProp<TextStyle>`        | `styles.buttonTextStyle`    | Custom style for the button text.                                           |
 | `buttonStyle`     | `StyleProp<ViewStyle>`        | `styles.okButton`           | Custom style for the button container.                                      |
 | `iconVisible`     | `boolean`                     | `true`                      | Whether to display the icon in the alert.                                   |
-
+| `iconSource`      | `ImageSourcePropType`         | `Default Icon`              | Source to provide custom image in the alert                                 |
 ## Customization
 
 You can customize the appearance of the alert by passing custom styles to the `titleTextStyle`, `messageTextStyle`, `buttonTextStyle`, and `buttonStyle` props.
