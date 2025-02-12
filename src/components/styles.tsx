@@ -53,7 +53,6 @@ export const styles = StyleSheet.create({
     color: '#fff',
   },
   buttonContainer: {
-    flex: 1,
     width: "100%",
     flexDirection: 'row-reverse',
     alignItems: 'center',
